@@ -6,6 +6,7 @@ import Intro from './components/Intro';
 import Skills from './components/Skills';
 import LearnMore from './components/LearnMore';
 import {Projects} from './components/Projects';
+import {Footer} from './components/Footer';
 
 
 export default class App extends Component {
@@ -23,6 +24,7 @@ export default class App extends Component {
                 </Intro>
                 <Skills ref='skills'/>
                 <Projects/>
+                <Footer/>
             </div>
         );
     }

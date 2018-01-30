@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
 
-import ReactIcon from '../react_icon.png';
+import ReactIcon from '../icons/react_icon.png';
 
 const Wrapper = styled.div`
     background: #F5F5F5;
@@ -14,8 +14,10 @@ const ContentWrapper = styled.div`
     display: flex;
     align-items: stretch;
     justify-content: center;
+    font-size: 30px;
     @media (max-width: 880px) {
         flex-direction: column;
+        font-size: 25px;
     }
 `;
 
@@ -26,7 +28,6 @@ const BlockWrapper = styled.div`
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    font-size: 30px;
 `;
 
 const LogoWrapper = styled.p`
@@ -39,7 +40,7 @@ export default class Skills extends Component {
     render () {
         return (
             <Wrapper>
-                <h1>Ключевые Навыки</h1>
+                <h1>Ключевые Технологии</h1>
                 <ContentWrapper>
                 <BlockWrapper>
                     <LogoWrapper color='#FF5722'>&lt;/&gt;</LogoWrapper>

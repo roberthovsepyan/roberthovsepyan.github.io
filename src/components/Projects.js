@@ -18,6 +18,7 @@ const ContentWrapper = styled.div`
     @media (max-width: 1000px) {
         flex-direction: column;
         align-items: center;
+        font-size: 17px;
     }
 `;
 
