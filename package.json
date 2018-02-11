@@ -2,6 +2,7 @@
   "name": "roberthovsepyan.github.io",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://roberthovsepyan.github.io",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -9,9 +10,12 @@
     "styled-components": "^2.4.0"
   },
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "react-scripts": "1.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

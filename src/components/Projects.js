@@ -14,6 +14,7 @@ const ContentWrapper = styled.div`
     display: flex;
     justify-content: center;
     font-size: 21px;
+    flex-wrap: wrap;
     
     @media (max-width: 1000px) {
         flex-direction: column;
@@ -40,7 +41,7 @@ export const Projects = () => {
                 <ContentWrapper>
                     <BlockWrapper>
                         <h2>TaskSimple</h2>
-                        <p>Минималистичный таск менеджер, использующий технологию Drag & Drop.</p>
+                        <p>Минималистичный таск-менеджер, использующий технологию Drag & Drop.</p>
                         <BlockWrapper>
                             <Link url='https://roberthovsepyan.github.io/tasksimple-v2/#/'>Демонстрация</Link>
                             <Link url='https://github.com/roberthovsepyan/tasksimple-v2'>Код</Link>
@@ -61,6 +62,14 @@ export const Projects = () => {
                         <BlockWrapper>
                             <Link url='https://roberthovsepyan.github.io/react-game/'>Демонстрация</Link>
                             <Link url='https://github.com/roberthovsepyan/react-game'>Код</Link>
+                        </BlockWrapper>
+                    </BlockWrapper>
+                    <BlockWrapper>
+                        <h2>Digital Keyboard</h2>
+                        <p>Играй на различных инструментах с помощью своей клавиатуры!</p>
+                        <BlockWrapper>
+                            <Link url='https://roberthovsepyan.github.io/digital-keyboard/'>Демонстрация</Link>
+                            <Link url='https://github.com/roberthovsepyan/digital-keyboard'>Код</Link>
                         </BlockWrapper>
                     </BlockWrapper>
                 </ContentWrapper>
